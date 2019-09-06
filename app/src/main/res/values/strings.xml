@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">活趣</string>
+    <string name="accessibility_service_description">accessibility_service_description</string>
+    <string name="login_phone_hint">请输入11位手机号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_send_message">获取短信验证码</string>
+    <string name="login_tip">登录</string>
+    <string name="code_title">请输入短信验证码</string>
+    <string name="code_tip_one">已发送短信验证码至</string>
+    <string name="code_tip_two">输入4位验证码即可登录</string>
+    <string name="code_tip_three">没收到验证码?</string>
+    <string name="code_tip_four">s后可重新发送</string>
+    <string name="code_resend">重新发送</string>
+    <string name="register_title">新用户注册</string>
+    <string name="register_name">请输入真实姓名</string>
+    <string name="register_id">请输入身份证号</string>
+    <string name="register_button">注册</string>
+    <string name="group_tip">群组成员</string>
+    <string name="register_image_button">选择头像</string>
+    <string name="family_item_recent_position_tip">暂无最新地点记录</string>
+    <string name="add_family_title">新增家人</string>
+    <string name="add_family_placeholder">请输入家人手机号</string>
+    <string name="add_family_tip">我们将会发送短信邀请您的家人</string>
+
+    <string name="hello">Hello World, JPush!</string>
+    <string name="tag_hint">Tag can be number, alphabet, underscore, Chinese. Use , to split many tags.</string>
+    <string name="alias_hint">Alias can be number, alphabet, underscore, Chinese.</string>
+    <string name="mobilenumber_hint">The phone number can only start with a "+" or a number,other can only contain "-" and Numbers</string>
+    <string name="style_hint">style should be number</string>
+    <string name="error_style_empty">style cannot be empty</string>
+    <string name="error_alias_empty">alias cannot be empty</string>
+    <string name="error_tag_empty">tag cannot be empty</string>
+    <string name="error_tag_gs_empty">Invalid format</string>
+    <string name="mobilenumber_empty_guide">will clear last set phone number</string>
+    <string name="error_network">Failed to init due to network exception.</string>
+    <string name="logining">Running in background. Please see log.</string>
+    <string name="setting_su">Succeed to set</string>
+    <string-array name="menu_zh">
+        <item>地图</item>
+        <item>家庭</item>
+        <item>二维码</item>
+        <item>退出登录</item>
+    </string-array>
+    <string-array name="menu_en">
+        <item>MAP</item>
+        <item>FAMILY</item>
+        <item>QRCODE</item>
+        <item>QUIT</item>
+    </string-array>
+    <string-array name="year">
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+    </string-array>
+    <string-array name="month">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="day_large">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+</resources>

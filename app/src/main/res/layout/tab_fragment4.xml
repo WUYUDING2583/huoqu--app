@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#e2e7d3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <io.github.yuweiguocn.lib.squareloading.SquareLoading
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E91E63"
+        app:squareColor="@android:color/white"
+        app:squareSize="12dp"
+        app:squareCorner="2dp"
+        app:dividerSize="2dp"
+        app:xCount="4"
+        app:yCount="3"
+        />
+</LinearLayout>

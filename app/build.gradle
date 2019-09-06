@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.yuyi.family"
+        minSdkVersion 18
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    compileOnly 'org.projectlombok:lombok:1.18.6'
+    annotationProcessor 'org.projectlombok:lombok:1.18.6'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    compile 'com.android.support:cardview-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation files('libs/AMap2DMap_5.2.0_AMapSearch_6.9.0_AMapLocation_4.7.0_20190708.jar')
+    implementation files('libs/gson-2.2.4.jar')
+    implementation files('libs/Android_Map3D_SDK_V6.9.2_20190709.jar')
+    compile project(path: ':android-volley')
+    compile project(path: ':takephoto_library')
+    implementation files('libs/jcore-android-2.0.1.jar')
+    implementation project(path: ':lib-zxing')
+    compile 'com.github.yuweiguocn:SquareLoading:v1.1.0'//加载组件
+    implementation 'com.gauravk.bubblenavigation:bubblenavigation:1.0.3'//滑动导航
+    implementation 'cn.carbswang.android:NumberPickerView:1.2.0'//滚动轮
+    implementation 'com.sonnyjack.widget:DragView:0.1.0'//悬浮按钮
+}
