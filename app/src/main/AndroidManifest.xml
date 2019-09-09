@@ -39,9 +39,7 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <meta-data
-            android:name="com.amap.api.v2.apikey"
-            android:value="26c1366cc4d17ee04e8593c1e14e6495" />
+
 
         <activity android:name=".MainActivity">
             <intent-filter>

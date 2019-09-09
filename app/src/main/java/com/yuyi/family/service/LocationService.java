@@ -247,7 +247,7 @@ public class LocationService extends Service {
                                                 FamilyMemberLocations familyMemberLocations=new FamilyMemberLocations();
                                                 familyMemberLocations.setFamilyMemberLocations(dbAdapter.getLocationsByPhone(familyMemberPhoneTemp));
                                                 FamilyMemberLocations newFamilyMemberLocations=(FamilyMemberLocations) JSONUtil.JsonToObject(response,FamilyMemberLocations.class);
-                                                if(familyMemberLocations.getRetCode().equals(CommonConstant.SERVER_SUCCESS_CODE)){
+                                                if(newFamilyMemberLocations.getRetCode().equals(CommonConstant.SERVER_SUCCESS_CODE)){
                                                     System.out.println("update family member locations");
                                                     //更新上次获取定位数据时间
                                                     User currentUserTemp=ApplicationUtil.getCurrentUser();
